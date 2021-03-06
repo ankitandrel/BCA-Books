@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+footer {
+  height: 50vh;
+  background-color: #0c122c;
+  background-image: url(../Images/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.footer-navigation a {
+  color: rgb(228, 213, 213);
+  letter-spacing: 2px;
+}
+.footer-navigation a:hover {
+  font-weight: bolder;
+}
+
+.footer-social-links ion-icon {
+  color: #eaf0f1;
+  font-size: 50px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.footer-social-links a:hover {
+  text-decoration: none;
+}
+.card-imgage {
+  height: 200px;
+}
+.card img {
+  object-fit: cover;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.card img:hover {
+  transform: scale(1.7);
+  object-fit: contain;
+}
